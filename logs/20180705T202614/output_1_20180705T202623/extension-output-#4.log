@@ -1,0 +1,17 @@
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module AIST
+3,0,error,E0401:Unable to import 'pandas'
+4,0,error,E0401:Unable to import 'pandas'
+5,0,error,E0401:Unable to import 'pandas'
+6,0,error,E0401:Unable to import 'pandas'
+7,0,error,E0401:Unable to import 'pandas'
+8,0,error,E0401:Unable to import 'sklearn.metrics'
+9,0,error,E0401:Unable to import 'sklearn.preprocessing'
+62,5,warning,W0612:Unused variable 'i'
+125,4,warning,W0612:Unused variable 'temp'
+135,4,warning,W0612:Unused variable 't'
+
+-----------------------------------
+Your code has been rated at 6.55/10
+
