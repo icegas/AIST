@@ -1,0 +1,18 @@
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module AIST
+62,5,warning,W0612:Unused variable 'i'
+125,4,warning,W0612:Unused variable 'temp'
+135,4,warning,W0612:Unused variable 't'
+
+------------------------------------------------------------------
+Your code has been rated at 9.73/10 (previous run: 9.73/10, -0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

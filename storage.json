@@ -3,6 +3,7 @@
     "openedPathsList": {
         "workspaces": [
             "/root/Desktop/AIST",
+            "/root/Desktop/AIST",
             "/root/Desktop/AIST"
         ],
         "files": []
@@ -459,7 +460,7 @@
             "uiState": {
                 "mode": 1,
                 "x": 448,
-                "y": 188,
+                "y": 220,
                 "width": 1024,
                 "height": 768
             }
