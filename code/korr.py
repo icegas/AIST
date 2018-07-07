@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 
 df=pd.read_csv('/root/Desktop/AISTHack/code/train/chats_train.csv', index_col=False)
 df=df.dropna(how='any')
-df=df[df['text'].str.lower().str.contains("sell trx|sell thron", regex=True)]
+df=df[df['text'].str.lower().str.contains("trx|thron", regex=True)]
 post_per_sec=df['timestamp'].value_counts().reset_index()
 
 post_per_sec = post_per_sec.sort_values(by=['index'])
