@@ -34,11 +34,11 @@ for i in range(len(timestemps)):
         values_2_hours.append(np.sum(tmp))
         tmp=[]
         j = i
-print(values_2_hours)
+
 
 values_2_hours.append(np.sum(tmp))
-size = len(values_2_hours)
-print(size)
+size = 668
+
 dataFile = '/root/Desktop/AISTHack/code/train/tickers_train.csv'
 data = pd.read_csv(dataFile)
 temp = data['name']
@@ -56,7 +56,7 @@ y = []
 length = int(len(TRX) - size)
 x = np.array([i for i in range(length)])
 for i in range(length):
-    y.append(np.corrcoef(TRX[i : size + i], values_2_hours[: 668]))
+    y.append(np.corrcoef(TRX[i : size + i], values_2_hours[: size]))
 yy = np.array([y[i][0, 1] for i in range(length) ])
 plt.plot(x, yy)
 plt.show()
